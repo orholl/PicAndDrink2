@@ -93,6 +93,7 @@ public class Register extends AppCompatActivity implements View.OnClickListener 
             return;
         }
 
+
         progressBar.setVisibility(View.VISIBLE);
 
         mAuth.createUserWithEmailAndPassword(email, password).
