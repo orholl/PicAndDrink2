@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menuHome"
+        android:icon="@drawable/ic_home"
+        android:title="Home"/>
+
+    <item android:id="@+id/menuTopCocktails"
+        android:icon="@drawable/ic_star_24"
+        android:title="TopCocktails"/>
+
+    <item android:id="@+id/menuCocktails"
+        android:icon="@drawable/ic_glass_24"
+        android:title="Cocktails"/>
+
+    <item android:id="@+id/menuMyCocktails"
+        android:icon="@drawable/ic_beer24"
+        android:title="My Cocktails"/>
+
+    <item android:id="@+id/menuBottles"
+        android:icon="@drawable/ic__hourglass_full_24"
+        android:title="Bottles"/>
+
+    <item android:id="@+id/menuCamera"
+        android:icon="@drawable/ic_camera"
+        android:title="Camera"/>
+
+    <item android:id="@+id/menuLogout"
+        android:icon="@drawable/ic_exit_to_app"
+        android:title="Logout"/>
+
+</menu>

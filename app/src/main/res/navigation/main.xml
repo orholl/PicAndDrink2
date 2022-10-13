@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@id/menuHome">
+
+    <fragment
+        android:id="@+id/menuHome"
+        android:name="com.example.picanddrink2.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/menuTopCocktails"
+        android:name="com.example.picanddrink2.TopCocktailsFragment"
+        android:label="Top Cocktails"
+        tools:layout="@layout/fragment_top_cocktails" />
+    <fragment
+        android:id="@+id/menuCocktails"
+        android:name="com.example.picanddrink2.CocktailsFragment"
+        android:label="fragment_cocktails"
+        tools:layout="@layout/fragment_cocktails" />
+    <fragment
+        android:id="@+id/menuBottles"
+        android:name="com.example.picanddrink2.MyBottlesFragment"
+        android:label="fragment_my_bottles"
+        tools:layout="@layout/fragment_my_bottles" />
+    <fragment
+        android:id="@+id/menuCamera"
+        android:name="com.example.picanddrink2.CameraFragment"
+        android:label="fragment_camera"
+        tools:layout="@layout/fragment_camera" />
+    <fragment
+        android:id="@+id/menuLogout"
+        android:name="com.example.picanddrink2.LogoutFragment"
+        android:label="fragment_logout"
+        tools:layout="@layout/fragment_logout" />
+    <fragment
+        android:id="@+id/menuMyCocktails"
+        android:name="com.example.picanddrink2.MyCocktailsFragment"
+        android:label="fragment_my_cocktails"
+        tools:layout="@layout/fragment_my_cocktails" />
+</navigation>
